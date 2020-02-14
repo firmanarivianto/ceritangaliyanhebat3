@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/back3"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="218dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:contentDescription="@string/foto_splashscreen_satu"
+                android:src="@drawable/ceritangaliyan" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="5dp"
+                android:text="KKN UPGRIS 2020"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:textColor="#F44336"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="175dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/logosemarang"
+                    android:layout_width="32dp"
+                    android:layout_height="29dp"
+                    android:src="@drawable/logosemarang" />
+
+                <ImageView
+                    android:id="@+id/logoupgris"
+                    android:layout_width="29dp"
+                    android:layout_height="29dp"
+                    android:src="@drawable/logoupgris" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="175dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
